@@ -2,6 +2,12 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.3.
 
+## Adding NgRx to Angular Project
+
+```sh
+ng add @ngrx/store
+```
+
 ## Cloning Guide
 
 1.  Clone only the remote primary HEAD (default: origin/master)
@@ -224,3 +230,7 @@ To configure the pre-commit hook, simply add a `precommit` npm script. We want t
 
 - [GitHub Actions for Angular](https://github.com/rodrigokamada/angular-github-actions)
 - [Angular 16 - milestone release](https://github.com/actionanand/ng16-signal-milestone-release)
+
+## Wiki
+
+![image](https://github.com/user-attachments/assets/e5f1269a-c848-4812-8c86-6d0a03ecc801)

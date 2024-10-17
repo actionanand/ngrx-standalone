@@ -1,4 +1,10 @@
 import { bootstrapApplication } from '@angular/platform-browser';
 import { AppComponent } from './app/app.component';
 
-bootstrapApplication(AppComponent).catch(err => console.error(err));
+import { provideStore } from '@ngrx/store';
+
+import { rootReducer } from './app/store/rootReducer';
+
+bootstrapApplication(AppComponent, {
+  providers: [provideStore(rootReducer)],
+}).catch(err => console.error(err));
