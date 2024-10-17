@@ -3,12 +3,8 @@ import { AppComponent } from './app/app.component';
 
 import { provideStore } from '@ngrx/store';
 
-import { counterReducer } from './app/store/counter.store/counter.reducer';
+import { rootReducer } from './app/store/rootReducer';
 
 bootstrapApplication(AppComponent, {
-  providers: [
-    provideStore({
-      counter: counterReducer,
-    }),
-  ],
+  providers: [provideStore(rootReducer)],
 }).catch(err => console.error(err));
