@@ -224,3 +224,8 @@ To configure the pre-commit hook, simply add a `precommit` npm script. We want t
 
 - [GitHub Actions for Angular](https://github.com/rodrigokamada/angular-github-actions)
 - [Angular 16 - milestone release](https://github.com/actionanand/ng16-signal-milestone-release)
+
+## Wiki
+
+![image](https://github.com/user-attachments/assets/e5f1269a-c848-4812-8c86-6d0a03ecc801)
+
