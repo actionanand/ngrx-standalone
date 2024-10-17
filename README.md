@@ -8,6 +8,12 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ng add @ngrx/store
 ```
 
+### Adding effects
+
+```sh
+ng add @ngrx/effects
+```
+
 ## Cloning Guide
 
 1.  Clone only the remote primary HEAD (default: origin/master)
@@ -234,3 +240,7 @@ To configure the pre-commit hook, simply add a `precommit` npm script. We want t
 ## Wiki
 
 ![image](https://github.com/user-attachments/assets/e5f1269a-c848-4812-8c86-6d0a03ecc801)
+
+1. [Reading your Application State using Selectors](https://angular-training-guide.rangle.io/state-management/ngrx/reading_your_application_state_using_selectors)
+2. [You should take advantage of the improved NgRx APIs](https://timdeschryver.dev/blog/you-should-take-advantage-of-the-improved-ngrx-apis#)
+3. [perfect selector : Do's and Dont's - NgRx Official](https://ngrx.io/guide/eslint-plugin/rules/prefer-selector-in-select)
