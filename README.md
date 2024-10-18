@@ -14,6 +14,16 @@ ng add @ngrx/store
 ng add @ngrx/effects
 ```
 
+### Adding @ngrx/operators
+
+The concatLatestFrom operator has been moved from `@ngrx/effects` to `@ngrx/operators`. If you're looking for the older documentation (prior to v18), see the [v17 documentation](https://v17.ngrx.io/guide/effects/operators#concatlatestfrom).
+
+The `concatLatestFrom` operator functions similarly to `withLatestFrom` with one important difference - it lazily evaluates the provided Observable factory.
+
+```bash
+ng add @ngrx/operators
+```
+
 ## Cloning Guide
 
 1.  Clone only the remote primary HEAD (default: origin/master)

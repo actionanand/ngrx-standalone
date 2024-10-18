@@ -1886,6 +1886,13 @@
     semver "^7.3.5"
     strip-json-comments "3.1.1"
 
+"@ngrx/operators@18.1.0":
+  version "18.1.0"
+  resolved "https://registry.yarnpkg.com/@ngrx/operators/-/operators-18.1.0.tgz#9149a22f736f75d97a07c249f34e94be48faff25"
+  integrity sha512-C4/57yiBigrFisrEWFA7XS8OgpGK2Vmvu7y6MYltLzK8FTr2r9FsTCG9oxlOHIxGzd5EJrzHNqqBzqVh/9/nww==
+  dependencies:
+    tslib "^2.3.0"
+
 "@ngrx/store@18.1.0":
   version "18.1.0"
   resolved "https://registry.yarnpkg.com/@ngrx/store/-/store-18.1.0.tgz#5cdbe3c47b84a3ebae85b5e0c55acc41619e8c56"
